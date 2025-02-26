@@ -66,3 +66,8 @@ text ("Dentro: " + contador, -150,330)
 text ("Total: " + puntos, -150,360)
 text ("pi: " + pi, -150,390)
 }
+
+function distancia(x1,y1,x2,y2)
+{
+  return sqrt(pow(x2-x1,2)+pow(y2-y1,2))
+}
